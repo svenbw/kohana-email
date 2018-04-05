@@ -1,3 +1,3 @@
-<?php defined('SYSPATH') OR die('No direct access allowed.');
+<?php
 
 class Email_Attachment extends Kohana_Email_Attachment {}
