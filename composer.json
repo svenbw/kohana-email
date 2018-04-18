@@ -1,5 +1,5 @@
 {
-  "name": "/email",
+  "name": "svenbw/kohana-email",
   "description": "Email module for Koseven",
   "license": "MIT",
   "keywords": [
