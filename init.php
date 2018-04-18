@@ -1,4 +1,6 @@
 <?php
 
-// Load mailers trough composer autoload
-require_once Kohana::find_file('vendor', 'autoload');
+if (is_file('vendor/autoload.php'))
+{
+    require_once 'vendor/autoload.php';
+}
