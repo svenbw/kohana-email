@@ -495,11 +495,11 @@ abstract class Kohana_Email {
 
       if (is_string($attachment))
       {
-        $this->attach($attachment);
+        $this->attach_content($attachment);
       }
       elseif (is_array($attachment))
       {
-        $this->attach($attachment['file'], $attachment['name']);
+        $this->attach_content($attachment['file'], $attachment['name']);
       }
     }
 
