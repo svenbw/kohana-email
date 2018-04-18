@@ -1,6 +1,7 @@
 {
   "name": "svenbw/kohana-email",
   "description": "Email module for Koseven",
+  "version": "1.0.0",
   "license": "MIT",
   "keywords": [
     "kohana",
