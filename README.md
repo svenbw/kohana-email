@@ -5,6 +5,21 @@ Kohana 3.3 and Koseven compatible email module using SwiftMailer or PHPMailer.
 
 ## How to install
 
+### Direct download method
+1. Download to modules directory.
+2. Fetch dependencies.
+```
+composer install
+```
+3. Include it in `APPPATH/bootstrap.php` modules list:
+```php
+Kohana::modules(array(
+	...
+	'email' => MODPATH.'email',
+	...
+));
+```
+
 ### Vendor module method 
 1. Add it in your projects composer.json.
 ```json
@@ -23,21 +38,6 @@ require DOCROOT.'/vendor/autoload.php';
 Kohana::modules(array(
 	...
 	'email' => DOCROOT.'/vendor/svenbw/kohana-email',
-	...
-));
-```
-
-### Direct download method
-1. Download to modules directory.
-2. Fetch dependencies.
-```
-composer install
-```
-3. Include it in `APPPATH/bootstrap.php` modules list:
-```php
-Kohana::modules(array(
-	...
-	'email' => MODPATH.'email',
 	...
 ));
 ```
